@@ -1,0 +1,16 @@
+>>  Dependency injection is a technique whereby one object ( or static method ) supplies the dependencies
+of another object . A dependency is an object that can be used ( a service )
+
+>>  So transferring the task of creating the object to someone else
+and directly using the dependency is called dependency injection
+
+>> WHY D I ?
+    Lets say we have a CAR a class which contains various objects such as Wheels,engine etc
+    Here the class is responsible for creating all the dependency objects .
+    Now what if i decide to ditch MRF wheels in future and go with YOKA wheels ??
+
+    we will need to recreate the car object .
+    but using DI we can change the wheels t runtime
+    ( because dependencies can be injected at runtime rather than compile time)
+
+>> FOR MORE  https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
