@@ -13,4 +13,30 @@ and directly using the dependency is called dependency injection
     but using DI we can change the wheels t runtime
     ( because dependencies can be injected at runtime rather than compile time)
 
->> FOR MORE  https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+
+>> What is Inversion of Control?
+
+    >>Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred
+to a container or framework. It’s most often used in the context of object-oriented programming.
+
+    >>By contrast with traditional programming, in which our custom code makes calls to a library, IoC enables a framework
+to take control of the flow of a program and make calls to our custom code.
+To enable this, frameworks use abstractions with additional behavior built in.
+If we want to add our own behavior, we need to extend the classes of the framework or plugin our own classes
+
+    The advantages of this architecture are:
+>> decoupling the execution of a task from its implementation
+making it easier to switch between different implementations
+greater modularity of a program
+greater ease in testing a program by isolating a component or mocking its dependencies
+and allowing components to communicate through contracts
+Inversion of Control can be achieved through various mechanisms such as:
+Strategy design pattern, Service Locator pattern, Factory pattern, and Dependency Injection (DI).
+
+
+>> FOR MORE
+https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+https://www.journaldev.com/2394/java-dependency-injection-design-pattern-example-tutorial
+https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
+https://javarevisited.blogspot.com/2012/11/difference-between-setter-injection-vs-constructor-injection-spring-framework.html
