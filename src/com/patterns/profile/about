@@ -1,0 +1,22 @@
+Spring Profile
+>> A Profile answers the question of “How to have different configurations in different environments?”
+https://www.springboottutorial.com/spring-boot-profiles
+
+Spring Boot Profiles
+>>You can define default configuration in application.properties. Environment specific overrides can be configured in specific files:
+
+application-dev.properties
+application-qa.properties
+application-stage.properties
+application-prod.properties
+Setting A Spring Boot Profile
+
+Here are a couple of ways of setting the active profile:
+
+>>At the time of launching the Java application
+-Dspring.profiles.active=qa - in the VM properties, OR
+
+>>Do the following in the application.properties file
+spring.application.profiles=qa.
+
+>>Depending on which profile is currently the active, the appropriate configuration is picked up.
